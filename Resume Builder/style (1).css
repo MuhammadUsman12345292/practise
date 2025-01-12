@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #654321;
+}
+.nav-button {
+    color: white;            /* White text */
+    text-decoration: none;   /* Remove underline */
+    padding: 10px 15px;     /* Padding around the text */
+    border-radius: 5px;     /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+.nav-button:hover {
+    background-color: #ecde83;  /* Darker background on hover */
+    transform: scale(1.05);   /* Slightly enlarge the button */
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(#ecde83 , #ecde83 );
+    color: #654321;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #654321;
+}
+
+.subscribers {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.logos span {
+    font-size: 1rem;
+    color: #666;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #654321;
+}
+
+.footer {
+    position: fixed; /* Stays at the bottom-right corner */
+    bottom: 10px; /* 10px from the bottom */
+    right: 10px; /* 10px from the right */
+    background-color:#FFFDE7; /* Cream background */
+    padding: 10px 20px;
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.footer ul {
+    list-style: disc;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 5px 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #7a4e00; /* Dark brown color */
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between logos */
+    overflow: hidden;
+    position: relative;
+    height: 50px; /* Adjust based on logo size */
+}
+
+.logo-container .logos {
+    display: flex;
+    animation: moveLogos 10s linear infinite; /* Infinite scrolling animation */
+}
+
+.logo-container img {
+    height: 30px; /* Adjust logo height */
+    margin: 0 15px;
+}
+
+@keyframes moveLogos {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
